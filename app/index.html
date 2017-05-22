@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Заголовок</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="js/fonts/slick.eot">
+	<link rel="stylesheet" href="js/fonts/slick.woff">
+	<link rel="stylesheet" href="js/fonts/slick.ttf">
+	<script type="text/javascript" src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript">
+$(document).ready(function() {
+    $( '.dropdown' ).hover(
+        function(){
+            $(this).children('.sub-menu').slideDown(200);
+        },
+        function(){
+            $(this).children('.sub-menu').slideUp(200);
+        }
+    );
+}); 
+</script>
+	
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load CSS Start -->
+	<script>loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" );</script>
+	<script>loadCSS( "css/header.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/main2.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load CSS End -->
+
+	<!-- Load CSS Compiled without JS -->
+	<noscript>
+		<link rel="stylesheet" type="text/css" href="css/fonts.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main2.css"></noscript>
+</head>
+<body>	
+	<div class="row">
+	<header class="container">
+   <a href="#" id="touch-menu" class="menu">&#9776;</a>
+   <nav>
+    <ul class="nav clearfix" id="ddmenu">
+     <li>
+      <a href="index.html">Головна</a>
+     </li>
+     <li class="dropdown">
+      <a href="#" >категорії</a>
+      	 	<ul class="sub-menu">
+            <li><a href="film.html">Фільми</a></li>
+          <li><a href="series.html">Серіали</a></li>
+          <li><a href="games.html">Ігри</a></li>
+                </ul>
+                </li>
+ 
+ 	</li>
+     <li>
+      <a href="rules.html">Правила</a>
+     </li>
+     <li>
+      <a href="administration.html">Адміністрація</a>
+     </li>
+    </ul>
+     <form class="form-inline pull-lg-right">
+      <input class="form-control" type="text" placeholder="Пошук по сатйту">
+    </form>
+   </nav>
+  </div>
+ </div>
+</header>
+<section id="section-1">
+<div class="main">
+	<div class="sl">
+		<div class="sl__slide">
+			<img src="img/sl1.jpg" alt="Picture1" class="sl__img">
+		</div>
+		<div class="sl__slide">
+			<img src="img/sl2.jpg" alt="Picture2" class="sl__img image-cl">
+		</div>
+		<div class="sl__slide">
+			<img src="img/sl3.jpg" alt="Picture3" class="sl__img">
+		</div>
+		<div class="sl__slide">
+			<img src="img/sl4.jpg" alt="Picture4" class="sl__img">
+		</div>
+		<div class="sl__slide">
+			<img src="img/sl5.jpg" alt="Picture5" class="sl__img">
+		</div>
+		<div class="sl__slide">
+			<img src="img/sl6.jpg" alt="Picture6" class="sl__img">
+		</div>
+		<div class="sl__slide">
+			<img src="img/sl6.jpg" alt="Picture7" class="sl__img">
+		</div>
+	</div>
+	<div class="sl2">
+  <div class="sl2__slide"><img src="img/sl1.jpg" alt="omg"></div>
+  <div class="sl2__slide"><img src="img/sl2.jpg" alt="omg"></div>
+  <div class="sl2__slide"><img src="img/sl3.jpg" alt="omg"></div>
+  <div class="sl2__slide"><img src="img/sl4.jpg" alt="omg"></div>
+  <div class="sl2__slide"><img src="img/sl5.jpg" alt="omg"></div>
+  <div class="sl2__slide"><img src="img/sl6.jpg" alt="omg"></div>
+  <div class="sl2__slide"><img src="img/sl7.jpg" alt="omg"></div>
+ </div>
+ <hr class="green">
+</section>
+
+	<section id="film" name="counter" class="text-md-center text-xs-center text-uppercase wow fadeIn" data-wow-duration="2s" 
+ data-wow-delay="0.2s">
+<hr>
+		<div class="container clearfix">
+		<button href="film.html" class="button-film-1">Фільми</button>	
+		 
+		<div class="row">
+			<div class="about-us-content text-uppercase"> 
+
+	<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 1.1.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Форсаж 8</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 1.1.jpg" alt="about1"/></div> 
+	<h3>Форсаж 8</h3> 
+<p> 
+Відважний любитель швидкої їзди, лідер команди відчайдушних автогонщиків і просто крутий хлопець Домінік Торрето встиг через багато пройти. Він і його друзі стикалися з найнебезпечнішими і жорстокими людьми, які представляли загрозу не тільки для них, але і для оточуючих. Використовуючи свої неперевершені навички та відмінне оснащення, герої робили самі божевільні трюки, які навряд чи хтось зможе повторити. За роки свого знайомства Домінік, Летті, Хоббс, Роман Пірс, Тедж Паркер і Брайан О'коннор стали справжньою сім'єю. Вони захищають одне одного і готові піти на все, щоб дати відсіч тим, хто загрожує їм. Але обставини склалися так, що Брайан, разом з яким герої пройшли через дуже багато, і який був найкращим другом Торрето, більше не в команді.
+</p>
+ <a href="http://kinocok.com/engine/download.php?id=15607"><img src="img/download.png" class="img_c"></a>	
+</div>	 
+
+</div> 
+
+</div>
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 1.2.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content">
+	<br> 
+	<span class="about-p-name">Кредо убивці</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 1.2.jpg" alt="about1"/></div> 
+	<h3>Креативні</h3> 
+<p> 
+Перед нами видовищна кінострічка, заснована на легендарній однойменній відеогрі, що розповідає про пригоди ассасинов - найманих убивць, не тільки виконують замовлення, а й провідних багатовікову війну з тамплієрами. Події фантастичного бойовика «Кредо вбивці» розгортаються в наш час. Ми знайомимося з засудженим на смертну кару злочинцем Каллум Лінчем. Після «смерті» герой приходить в себе в незвичайному приміщенні, де знаходиться дівчина, яка і вводить його в курс справи. Вона пояснює, що тепер для всього світу Лінч мертвий, а для її організації він представляє певний інтерес, так як є прямим нащадком великого іспанського ассасина Агілара, що жив 600 років тому. Дівчина-дослідник також розповідає Линчу про анімусом - спеціальному пристрої, здатному використовувати ДНК людини для візуалізації всіх генетичних спогадів минулих поколінь. Тепер Каллум належить буквально повернутися в минуле і опинитися в тілі свого далекого родича, щоб битися з орденом тамплієрів і дізнатися важливу інформацію.
+</p>
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c"> 
+
+</div> 
+</div> 
+</div> 
+</div>
+
+	<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 1.3.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Доктор Стренж</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 1.3.jpg" alt="about1"/></div> 
+	<h3>Доктор Стренж</h3> 
+<p> 
+Перед нами чергова кінострічка про супергероїв. «Доктор Стрендж» - це в цілому 14-й за рахунком фільм, який знайомить глядача з всесвіту Marvel. У центрі сюжету опиняється колишній нейрохірург, який більше не може займатися своєю улюбленою роботою. Але це лише частина звалився на Стівена горя, адже в тій аварії, де чоловік отримав множинні травми, які позбавили його руки колишньої чутливості, він втратив набагато більше - сенс життя. У той нещасливий день під уламками автомобіля загинула кохана дружина Стівена і їх ненароджена дитина. У сукупності це стає для чоловіка настільки сильним ударом, що він намагається відшукати нову мету, заради якої варто жити. Це бажання штовхає героя на подорож, яке дуже скоро почне міняти його долю, виводячи Стівена на дорогу до світу, про існування якого він і не здогадувався. Подорожуючи країнами в пошуках зцілення для своєї душі і тіла, Стрендж потрапляє в древній монастир, розташований в Західній Азії. Тут він знайомиться із Старійшиною - жінкою-мудрецем, що володіє вражаючими здібностями, які вона негайно йому демонструє. Старійшина розповідає герою правду про справжній устрій світу, що змушує колишнього лікаря перетворитися на могутнього мага.
+</p>
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c"> 
+
+</div> 
+</div> 
+</div> 
+</div>
+
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 1.4.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Прибуття</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 1.4.jpg" alt="about1"/></div> 
+	<h3>Прибуття</h3> 
+<p> 
+На Землю прилітають таємничі об'єкти з космосу, про походження яких ніхто нічого не знає. Об'єкти з'являються по всьому світу і завмирають в декількох десятках метрах від поверхні землі. Всі люди знаходяться в стані шоку, адже про справжні наміри прибульців нічого невідомо, а значить, вони могли прилетіти на нашу планету зовсім не з дружніми намірами. Військові намагаються з'ясувати, що ж відбувається, і для цього збирають команду фахівців. Уряд просить допомоги у кращого лінгвіста Луїзи Бенкс, здатної перевести будь-яку мову, а також у талановитого фізика Яна Доннели.
+</p>
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c">
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 1.5.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Конг острів черепа</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 1.5.jpg" alt="about1"/></div> 
+	<h3>>Конг острів черепа</h3> 
+<p> 
+Якщо ви давно мріяли опинитися в минулому, тоді варто неодмінно подивитися цей фільм. Він дозволить вам відправитися в сорокові роки минулого століття. У центрі подій виявляється чоловік, який самостійно організував експедицію на Острів Черепа. Цей острів вже тоді був відомий своїми таємницями. Колись тут вдалося зловити Кінг-Конга. Насправді, наш герой вирушає сюди не стільки з цікавості, скільки через необхідність знайти брата, який тут пропав. Також потрібно відшукати особливу рідину, що має незвичайні властивості. Ця подорож буде надзвичайно важким. Мандрівникам доведеться стати учасниками багатьох кошмарних і досить незвичайних ситуації. Цілком ймовірно, що навіть не всі зможуть повернутися додому. У будь-якому випадку, глядачі отримають надзвичайне задоволення від перегляду цієї кінокартини. Немає сумнівів, що розчарованих не буде. Що ж чекає в результаті? Дивіться і самі зможете все дізнатися.
+</p>
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c"> 
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 1.6.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Логан</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 1.6.jpg" alt="about1"/></div> 
+	<h3>>Логан</h3> 
+<p> 
+Після всіх розборок в Японії Росомаха перебрався на інший континент і оселився в Канаді. Нове місце дарувало надію на іншу, більш спокійне життя. На своїй фермі герой заробляє хоч і невеликі гроші, але зате отримує задоволення від такого існування. Хоча проблеми знайшли чоловіка і тут. Різні браконьєри постійно норовлять влаштувати незаконну вирубку на його ділянці, тому доводиться боротися з таким явищем. Але подібні сутички нічого спільного з колишніми подвигами Логана не мали. Їх швидше можна назвати пересічним непорозумінням, ніж серйозним конфліктом, в якому очікуються жертви. 
+</p> 
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c">
+
+</div> 
+</div> 
+</div> 
+</div>
+</div>
+
+</section>
+<section id="film" name="counter" class="text-md-center text-xs-center text-uppercase wow fadeIn" data-wow-duration="2s" 
+ data-wow-delay="0.2s">
+ <hr>
+		<div class="container clearfix">
+
+		<button class="button-series-1">Серіали</button>	
+		<div class="row">
+				<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.1.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Острі козирьки</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.1.jpg" alt="about1"/></div> 
+	<h3>Острі козирьки</h3> 
+<p> 
+Британський серіал про кримінальний світ Бірмінгема 20-х років минулого століття, в якому багатолюдна сім'я Шелбі стала однією з найжорстокіших і впливових гангстерських банд післявоєнного часу. Фірмовим знаком угруповання, що займалася пограбуваннями та азартними іграми, стали зашиті в козирки леза. 
+</p> 
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c">
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.2.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content">
+	<br> 
+	<span class="about-p-name">Гра пристолів</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.2.jpg" alt="about1"/></div> 
+	<h3Гра пристолів</h3> 
+<p> 
+Американський фантастичний телесеріал «Гра престолів» вийшов в прокат в 2011 році і є екранізацією знаменитого циклу романів «Пісня Льоду та полум'я» письменника Джорджа Р. Р. Мартіна. Команді режисерів вдалося вдало відтворити всю суть книги і розповісти глядачеві неймовірну історію про вигадане казкове середньовіччя, в якому, як і в сучасному світі, є місце боротьбі за владу. Основна частина зйомок проходила в Північній Ірландії. Сучасні технології і екзотичність обстановки дозволяє повною мірою насолодитися подіями. Всього серіал складається з 10 серій. Перегляду кожної серії займе не більш 55 хвилин.
+</p> 
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c">
+
+</div> 
+</div> 
+</div> 
+</div>
+
+	<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.3.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Декстер</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.3.jpg" alt="about1"/></div> 
+	<h3>Декстер</h3> 
+<p> 
+Декстер американський телесеріал каналу Showtime, заснований на романі Джеффрі Ліндсея «Дремлющий демон Декстера» (англ. Darkly Dreaming Dexter, дослівно «Похмурі мрії Декстера») і адаптований для телебачення лауреатом премії «Еммі», сценаристом Джеймсом Маносом-мл., який написав сценарій для пілотного епізоду. Події серіалу розповідають про Декстера Моргана (Майкл Холл), вигаданому серійного вбивцю, що працюють судовим експертом по бризок крові в поліції Маямі. Серіал неодноразово номінувався на різні премії, такі як «Еммі», IGN, Satellite Award і «Сатурн». Також серіал піддавався критиці з боку батьківських організацій (таких як Parents Television Council) як надмірно жорстокий і аморальний.
+</p> 
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c">
+
+</div> 
+</div> 
+</div> 
+</div>
+
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.4.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Таббу</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.4.jpg" alt="about1"/></div> 
+	<h3>Таббу</h3> 
+<p> 
+Табу британський драматичний телесеріал, прем'єра якого відбулася в Великобританії на каналі BBC One, а в США - на каналі FX. Восьмисерійний серіал, створений Томом Гарді, чіпси Харді і Стівеном Найтом, заснований на оповіданні Тома Харді, оповідає про шукачі пригод, успадкованих землю і намагаються отримати монополію на торгівлю з Китаєм [1] [2]. Серіал отримав позитивні відгуки критиків, які особливо відзначили акторську гру Тома Харді
+</p> 
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c">
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.5.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Американські боги</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.5.jpg" alt="about1"/></div> 
+	<h3>>Американські боги</h3> 
+<p> 
+Тінь - людина з минулим. Але тепер єдине, чого він хоче - це жити тихим і спокійним життям зі своєю дружиною в стороні від проблем. Поки він не дізнається про її загибелі в результаті нещасного випадку. По дорозі на похорон додому, коли найсильніший шторм стрясає літак, йому видається дивна людина з сусіднього крісла. Він називає себе містер Середовище. І він знає про Тіні більше, ніж здається можливим. Він попереджає Тінь, що гряде ще більший шторм. І ніщо з цього моменту, включаючи його самого, не буде таким, як раніше.
+</p> 
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c">
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.6.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Доктор Хаус</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.6.jpg" alt="about1"/></div> 
+	<h3>Доктор Хаус</h3> 
+<p> 
+Хаус підтримує дружні відносини тільки з доктором Вілсоном, якому вистачає терпіння перебувати поруч зі своїм цинічним іншому, а ось з начальницею Лізою Кадді він дуже часто конфліктує з-за роботи. За наполяганням тієї ж Кадді Хаус набирає собі команду діагностів з трьох фахівців: Формана, в минулому якого проблеми з поліцією, Кемерон - єдиної жінки в команді і хорошому імунолога, а також Чейза, взятого в команду, за словами Хауса, через зв'язки його батька. Всім трьом доведеться звикати не тільки один до одного, але і до характеру і методам роботи свого начальника.
+</p> 
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c">
+
+</div> 
+</div> 
+</div>
+</div>
+</div>
+</section>
+<section id="film" name="counter" class="text-md-center text-xs-center text-uppercase wow fadeIn" data-wow-duration="2s" 
+ data-wow-delay="0.2s">
+ <hr>
+		<div class="container clearfix">
+		<button class="button-games-1">Ігри</button>	
+		<div class="row">
+	<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 3.1.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">CSGO</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 3.1.jpg" alt="about1"/></div> 
+	<h3>CSGO</h3> 
+<p> 
+Counter-Strike: Global Offensive (CS: GO) відродив той ураганний командний ігровий процес, вперше представлений ще 16 років тому. CS: GO включає в себе нові карти, персонажів, зброю і їх поліпшені версії з класичної CS (de_dust і т.п.). Крім того, CS: GO містить нові ігрові режими, систему організації матчів, глобальні таблиці гравців і багато іншого. «Counter-Strike була сюрпризом для ігрової індустрії, коли не особливо вдалий мод став одним з найпопулярніших шутерів в світі відразу ж після його релізу в серпні 1999 року, - говорить Даг Ломбарді з Valve, - за минулі 12 років, вона все ще одна з найпопулярніших в світі ігор, часто з'являється на ігрових змаганнях і продана в кількості більше 25 мільйонів копій по всьому світу. CS: GO відродив знаменитий ігровий процес Counter-Strike і запропонував його гравцям не тільки на ПК, але і на консолях наступного покоління і комп'ютерах Mac ». CS: GO розробляється Valve у співпраці з Hidden Path Entertainment.
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c">
+</p> 
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 3.2.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Dota 2</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 3.2.jpg" alt="about1"/></div> 
+	<h3>Dota 2</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p>
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c"> 
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 3.3.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">GTA 5</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 3.3.jpg" alt="about1"/></div> 
+	<h3>GTA 5</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p>
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c"> 
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 3.4.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Dead island</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 3.4.jpg" alt="about1"/></div> 
+	<h3>Dead island</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p>
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c"> 
+
+</div> 
+</div>	
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 3.5.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">The Witcher 3</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 3.5.jpg" alt="about1"/></div> 
+	<h3>The Witcher 3</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p>
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c"> 
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 3.6.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Resident Evil 7</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 3.6.jpg" alt="about1"/></div> 
+	<h3>Resident Evil 7</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p>
+<p><a href="<a href="http://raider/app/files/csgo.torrent"><img src="img/download.png" class="img_c"> 
+</div> 
+</div>
+</div> 
+</div>
+</section>
+<footer>
+<hr>
+	<div class="container clearfix">
+		<div class="blockquote-footer ">
+		<div class="two-block col-md-6">
+		<div class="mail">
+		<a href="raider_yura_1998@mail.ru">raider_yura_1998@mail.ru</a>
+		</div>
+		<div class="address">м. Чернівці, 59310 с. Киселів, вул.Героїв Майдану, дім 12</div>
+		</div>
+		<div class="three-block  pull-md-right">
+       	<a href="https://vk.com/raider_yura" target="_blank" class="btn-social btn-vk">
+        <i class="fa fa-vk"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" class="btn-social btn-facebook">
+        <i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/ValentynMarusyk" target="_blank" class="btn-social btn-twitter">
+        <i class="fa fa-twitter"></i></a>
+        <a href="https://plus.google.com/u/0/105071669603249915743" target="_blank" class="btn-social btn-google-plus">
+        <i class="fa fa-google-plus"></i></a>
+        <a href="https://www.youtube.com/user/MrOwnage669/" target="_blank" class="btn-social btn-youtube">
+        <i class="fa fa-youtube"></i></a>
+    </div>
+		</div>
+	</div>
+</footer>
+
+	<script src="js/slick.min.js"></script>
+	<script src="js/js.js"></script>	
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<!--[endif]-->
+
+	<!-- Load Scripts Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.min.js", "async" : false},
+		{"src" : "js/common.js", "async" : false},
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Load Scripts End -->
+
+	<script>
+	wow = new WOW(
+    {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       true,       // default
+        live:         true        // default
+    })
+    wow.init();
+</script>
+
+<script src="js/numcount.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha256-AkXNkCuVl4vPqPnlkWUmRGA7fHZFhbqtLgdFlDmJgcw=" crossorigin="anonymous"></script>
+</body>
+</html>

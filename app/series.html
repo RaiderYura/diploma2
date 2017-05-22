@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Заголовок</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="js/fonts/slick.eot">
+	<link rel="stylesheet" href="js/fonts/slick.woff">
+	<link rel="stylesheet" href="js/fonts/slick.ttf">
+	<script type="text/javascript" src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load CSS Start -->
+	<script>loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" );</script>
+	<script>loadCSS( "css/header.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/main2.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load CSS End -->
+
+	<!-- Load CSS Compiled without JS -->
+	<noscript>
+		<link rel="stylesheet" type="text/css" href="css/fonts.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main2.css"></noscript>
+<script type="text/javascript">
+$(document).ready(function() {
+    $( '.dropdown' ).hover(
+        function(){
+            $(this).children('.sub-menu').slideDown(200);
+        },
+        function(){
+            $(this).children('.sub-menu').slideUp(200);
+        }
+    );
+}); 
+</script>
+</head>
+<body>	
+	<header class="container">
+  <div class="row">
+   <a href="#" id="touch-menu" class="menu">&#9776;</a>
+   <nav>
+    <ul class="nav clearfix">
+     <li>
+      <a href="index.html">Головна</a>
+     </li>
+     <li class="dropdown">
+      <a href="#" >категорії</a>
+          <ul class="sub-menu">
+            <li><a href="film.html">Фільми</a></li>
+          <li><a href="series.html">Серіали</a></li>
+          <li><a href="games.html">Ігри</a></li>
+                </ul>
+                </li>
+     <li>
+      <a href="rules.html">Правила</a>
+     </li>
+     <li>
+      <a href="administration.html">Адміністрація</a>
+     </li>
+    </ul>
+     <form class="form-inline pull-lg-right">
+      <input class="form-control" type="text" placeholder="Пошук по сатйту">
+    </form>
+   </nav>
+  </div>
+ </div>
+</header>
+<section id="film" name="counter" class="text-md-center text-xs-center text-uppercase wow fadeIn" data-wow-duration="2s" 
+ data-wow-delay="0.2s">
+ <hr>
+		<div class="container clearfix">
+
+		<button class="button-series-1">Серіали</button>	
+		<div class="row">
+				<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.1.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Острі козирьки</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.1.jpg" alt="about1"/></div> 
+	<h3>Острі козирьки</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.2.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content">
+	<br> 
+	<span class="about-p-name">Гра пристолів</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.2.jpg" alt="about1"/></div> 
+	<h3Гра пристолів</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+
+	<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.3.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Декстер</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.3.jpg" alt="about1"/></div> 
+	<h3>Декстер</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.4.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Таббу</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.4.jpg" alt="about1"/></div> 
+	<h3>Таббу</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.5.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Американські боги</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.5.jpg" alt="about1"/></div> 
+	<h3>>Американські боги</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.6.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Доктор Хаус</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 1.2.jpg" alt="about1"/></div> 
+	<h3>Доктор Хаус</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+</div>
+	<div class="container clearfix">	
+	<div class="row">	 
+	<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.7.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Банши</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.7.jpg" alt="about1"/></div> 
+	<h3>Банши</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.8.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content">
+	<br> 
+	<span class="about-p-name">Чорний список</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.8.jpg" alt="about1"/></div> 
+	<h3>Чорний список</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+
+	<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.9.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Фарго</span>
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.9.jpg" alt="about1"/></div> 
+	<h3>Фарго</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.10.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Сотня</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.10.jpg" alt="about1"/></div> 
+	<h3>Сотня</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.11.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Люцифер</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.11.jpg" alt="about1"/></div> 
+	<h3>Люцифер</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+<div class="col-md-2 col-sm-6 col-xs-12 about-item"> 
+	<div class="about-us-single wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s"> 
+	<div class="about-us-single-img "> 
+	<img src="img/img 2.12.jpg" alt="about1"/> 
+	</div> 
+	<div class="about-us-single-img-overlay all_overlay "> 
+	<a href="#" class="popup_content"> 
+	<br> 
+	<span class="about-p-name">Готем</span> 
+	</a> 
+	</div> 
+	<div class="hidden"> 
+	<div class="about-descr" > 
+	<div class="about-descr-img"> 
+	<img src="img/img 2.12.jpg" alt="about1"/></div> 
+	<h3>Готем</h3> 
+<p> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p> 
+
+</div> 
+</div> 
+</div> 
+</div>
+</div>
+</section>
+<footer>
+<hr>
+	<div class="container clearfix">
+		<div class="blockquote-footer ">
+		<div class="two-block col-md-6">
+		<div class="mail">
+		<a href="raider_yura_1998@mail.ru">raider_yura_1998@mail.ru</a>
+		</div>
+		<div class="address">м. Чернівці, 59310 с. Киселів, вул.Героїв Майдану, дім 12</div>
+		</div>
+		<div class="three-block  pull-md-right">
+       	<a href="https://vk.com/raider_yura" target="_blank" class="btn-social btn-vk">
+        <i class="fa fa-vk"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" class="btn-social btn-facebook">
+        <i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/ValentynMarusyk" target="_blank" class="btn-social btn-twitter">
+        <i class="fa fa-twitter"></i></a>
+        <a href="https://plus.google.com/u/0/105071669603249915743" target="_blank" class="btn-social btn-google-plus">
+        <i class="fa fa-google-plus"></i></a>
+        <a href="https://www.youtube.com/user/MrOwnage669/" target="_blank" class="btn-social btn-youtube">
+        <i class="fa fa-youtube"></i></a>
+    </div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+	<script src="js/slick.min.js"></script>
+	<script src="js/js.js"></script>	
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<!--[endif]-->
+
+	<!-- Load Scripts Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.min.js", "async" : false},
+		{"src" : "js/common.js", "async" : false},
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Load Scripts End -->
+
+	<script>
+	wow = new WOW(
+    {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       true,       // default
+        live:         true        // default
+    })
+    wow.init();
+</script>
+
+<script src="js/numcount.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha256-AkXNkCuVl4vPqPnlkWUmRGA7fHZFhbqtLgdFlDmJgcw=" crossorigin="anonymous"></script>
+</body>
+</html>

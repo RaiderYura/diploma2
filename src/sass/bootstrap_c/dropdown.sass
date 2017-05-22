@@ -1,0 +1,57 @@
+nav
+  ul
+    list-style-type: none
+   
+    margin: 0 
+    z-index: 2
+    li
+      display: inline-block
+      position: relative
+      
+  li
+    
+    ul
+      background-color: rgba(1, 1, 1, 0.5)
+      position: absolute
+      left: 0
+      top: 50px
+      width: 120px
+    li
+      position: relative
+      left: -40px
+      display: block
+      width: 115px
+     
+
+      ul
+        position: absolute
+        top: 0
+        left: 200px
+        margin: 0
+        width: 120px
+        
+  a
+    line-height: 40px
+    padding: 0 12px
+    margin: 0 12px
+    color: #fff
+    text-decoration: none
+    display: block
+
+    &:hover, &:focus, &:active
+      color: rgb(50, 50, 50)
+  li
+    li
+
+      a
+        border-bottom: solid 1px rgb(133, 173, 2)
+        margin: 0 10px
+        padding: 0
+      &:last-child a
+        border-bottom: none
+   
+
+
+
+ul.sub-menu
+  display: none
