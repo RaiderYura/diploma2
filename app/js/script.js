@@ -1,23 +1,28 @@
+//ScrollSectionPageId
 $(document).ready(function(){
-	$(".about-item").each(function(i) {
-	$(this).find("a").attr("href", "#work_" + i);
-	$(this).find(".about-descr").attr("id", "work_" + i);
-	});
-
-	$(".popup_content").magnificPopup({
-		type: "inline",
-		midClick: true,
-		gallery : {
-		  enabled : true
-		},
-		removalDelay: 300,
-		mainClass: 'mfp-fade'
-		
-	});
-	
+		$('nav a[href^="#"]').click(function () { 
+ 				elementClick = $(this).attr("href");
+				destination = $(elementClick).offset().top - 50;
+				{
+				$('body,html').animate( { scrollTop: destination }, 1500);
+				} 
+				return false;
+		   });
 });
-
-
+//scrollToTop
+$(function() {
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 600) {
+			$('#toTop').fadeIn();
+				} else {
+			$('#toTop').fadeOut();
+				}
+			});
+			$('#toTop').click(function() {
+			$('body,html').animate({scrollTop:0},1000);
+			return false;
+		});
+	});
 
 //Меню jquery
 $(document).ready(function(){
@@ -41,6 +46,7 @@ $(document).ready(function(){
 
 //картинки  
 $(document).ready(function(){
+
 	$(".lul").magnificPopup({
 		type : 'image',
 		gallery : {
@@ -49,5 +55,43 @@ $(document).ready(function(){
 		removalDelay: 300,
 		mainClass: 'mfp-fade'
 	});
-	
+	$(".item-about").magnificPopup({
+		type : 'image',
+		gallery : {
+		  enabled : true
+		},
+		removalDelay: 300,
+		mainClass: 'mfp-fade'
+	});
+	$(".item-brand").magnificPopup({
+		type : 'image',
+		gallery : {
+		  enabled : true
+		},
+		removalDelay: 300,
+		mainClass: 'mfp-fade'
+	});
 });
+
+//accordeon
+	$(document).ready(function() {
+  
+ $('.wrapper>.prokrutka').not(':first-of-type').hide();
+ 
+  
+  $('.wrapper>h1').click(function() {
+    
+    var findArticle = $(this).next();
+    var findWrapper = $(this).closest('.wrapper');
+    
+    if (findArticle.is(':visible')) {
+      findArticle.slideUp('fast');
+    }
+    else {
+      findWrapper.find('>.prokrutka').slideUp('fast');
+      findArticle.slideDown('fast');
+    }
+  });
+  
+});
+//men

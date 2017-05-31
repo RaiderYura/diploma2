@@ -1,0 +1,125 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '10cb2f0afc517206d0bbd1d1fd959a54' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":25,"source":0,"property_preprocess":0,"name":"example_cSS_Cell_Tpl","description":"Formats the cell animation-delay sections","editor_type":0,"category":8,"cache_type":0,"snippet":"figure:nth-child([[+count]]) {\\n   animation: xfade [[+duration]]s [[+delay]]s infinite;\\n}\\n","locked":0,"properties":null,"static":0,"static_file":"","content":"figure:nth-child([[+count]]) {\\n   animation: xfade [[+duration]]s [[+delay]]s infinite;\\n}\\n"}',
+        'guid' => '6539db3dda7129cb2d3a77ad0eab3cc9',
+        'native_key' => 25,
+        'signature' => 'ae45c0a93bf23972b087ee7a6889e8ef',
+      ),
+      '51821460ddeaeda724b62289d2b7a919' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":33,"source":0,"property_preprocess":0,"name":"example2_cSS_Image_Tpl","description":"This example has a call to pThumb to create a thumbnail image on the fly for faster loading. You will want to view this once so that the thumbs are created before making the page public as it does take a bit of time with larger numbers of images.","editor_type":0,"category":8,"cache_type":0,"snippet":"  <figure>\\n    <a href=\\"[[+imgLink]]\\" target=\\"_blank\\">\\n    <img src=\\"[[+imgLink:pThumb=`w=250&h=188&f=png&bg=00f&far=BC&zc=1`]]\\" alt=\\"[[+imgLink]]\\" \\/>\\n     <figcaption>\\n     [[+imgName]]\\n         <div class=\'exif\'>\\n         Camera - [[+imgCamera]]<br \\/>\\n         Date\\/Time - [[+imgDate]]\\n         <\\/div>\\n     <\\/figcaption>\\n     <\\/a>\\n  <\\/figure>\\n","locked":0,"properties":null,"static":0,"static_file":"","content":"  <figure>\\n    <a href=\\"[[+imgLink]]\\" target=\\"_blank\\">\\n    <img src=\\"[[+imgLink:pThumb=`w=250&h=188&f=png&bg=00f&far=BC&zc=1`]]\\" alt=\\"[[+imgLink]]\\" \\/>\\n     <figcaption>\\n     [[+imgName]]\\n         <div class=\'exif\'>\\n         Camera - [[+imgCamera]]<br \\/>\\n         Date\\/Time - [[+imgDate]]\\n         <\\/div>\\n     <\\/figcaption>\\n     <\\/a>\\n  <\\/figure>\\n"}',
+        'guid' => 'bc2054c3876fc4ec44231e819ff27da8',
+        'native_key' => 33,
+        'signature' => '916e55850429ae062fd732b3d682b34d',
+      ),
+      '07d4e9ad5a3063ab84858bf93ce531c1' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":26,"source":0,"property_preprocess":0,"name":"example_cSS_Image_Tpl","description":"","editor_type":0,"category":8,"cache_type":0,"snippet":"  <figure>\\n    <a href=\\"[[+imgLink]]\\" target=\\"_blank\\">\\n    <img src=\\"[[+imgLink]]\\" width=\\"[[+width]]\\"  height=\\"[[+height]]\\" title=\\"[[+imgName]]\\" \\/>\\n     <figcaption>\\n     [[+imgName]]\\n         <div class=\'exif\'>\\n         Camera - [[+imgCamera]]<br \\/>\\n         Date\\/Time - [[+imgDate]]\\n         <\\/div>\\n     <\\/figcaption>\\n     <\\/a>\\n  <\\/figure>\\n","locked":0,"properties":null,"static":0,"static_file":"","content":"  <figure>\\n    <a href=\\"[[+imgLink]]\\" target=\\"_blank\\">\\n    <img src=\\"[[+imgLink]]\\" width=\\"[[+width]]\\"  height=\\"[[+height]]\\" title=\\"[[+imgName]]\\" \\/>\\n     <figcaption>\\n     [[+imgName]]\\n         <div class=\'exif\'>\\n         Camera - [[+imgCamera]]<br \\/>\\n         Date\\/Time - [[+imgDate]]\\n         <\\/div>\\n     <\\/figcaption>\\n     <\\/a>\\n  <\\/figure>\\n"}',
+        'guid' => 'f0486a66da0de3b721ee8cf2a26e832a',
+        'native_key' => 26,
+        'signature' => 'e7b1fda8891f107053b0a4c6bce29e1c',
+      ),
+      '9de4e3d505a99e99b538f2d86ffc54e1' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":27,"source":0,"property_preprocess":0,"name":"example_cSS_Page_Tpl","description":"","editor_type":0,"category":8,"cache_type":0,"snippet":"[[+style]]\\n<h1 class=\'text-center\'>[[!monthName? &mn_Folder=`x[[+folder]]`]] [[+parent]] Slide Show<\\/h1>\\n<h4 class=\'text-center\'>[[+total]] Photos - <a href=\\"javascript:history.back(1)\\">Back<\\/a><\\/h4> \\n\\n<div class=\\"[[+class]]\\">\\n[[+photos]]\\n<\\/div>","locked":0,"properties":null,"static":0,"static_file":"","content":"[[+style]]\\n<h1 class=\'text-center\'>[[!monthName? &mn_Folder=`x[[+folder]]`]] [[+parent]] Slide Show<\\/h1>\\n<h4 class=\'text-center\'>[[+total]] Photos - <a href=\\"javascript:history.back(1)\\">Back<\\/a><\\/h4> \\n\\n<div class=\\"[[+class]]\\">\\n[[+photos]]\\n<\\/div>"}',
+        'guid' => 'ce0fb7c0aa5fc009679a1d1b7079bb42',
+        'native_key' => 27,
+        'signature' => 'a7faa17ba0d58d172371a1209b0b04b2',
+      ),
+      '7219d83d66a6946c10a258d0c7285969' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":28,"source":0,"property_preprocess":0,"name":"example_cSS_Style_Tpl","description":"","editor_type":0,"category":8,"cache_type":0,"snippet":"<style>\\n.[[+class]]{\\n   position: relative;\\n   max-width: [[+width]]px;\\n   height: [[+height]]px;\\n   margin: 1em auto .5em auto;\\n}\\n\\n.[[+class]] figure{\\n   margin: 0;\\n   position: absolute;\\n}\\n\\n.[[+class]] figcaption{\\n   position: absolute;\\n   bottom: .5em;\\n   color: #fff;\\n   background: rgba(0,0,0, .3);\\n   font-size: .8em;\\n   padding: 8px 12px;\\n   opacity: 0;\\n   transition: opacity .5s;\\n}\\n\\n.[[+class]]:hover figure figcaption{\\n   transition: opacity .5s;\\n   opacity: 1;\\n}\\n\\n.[[+class]] figure{\\n   opacity:1;\\n}\\n[[+cell]]\\n\\n@keyframes xfade {\\n     0% {\\n       opacity:1;\\n     }\\n     [[+kf2]]% {\\n       opacity:1;\\n     }\\n     [[+kf3]]% {\\n       opacity:0;\\n     }\\n     [[+kf4]]% {\\n       opacity:0;\\n     }\\n     100% {\\n       opacity:1;\\n     }\\n}\\n\\n<\\/style>","locked":0,"properties":null,"static":0,"static_file":"","content":"<style>\\n.[[+class]]{\\n   position: relative;\\n   max-width: [[+width]]px;\\n   height: [[+height]]px;\\n   margin: 1em auto .5em auto;\\n}\\n\\n.[[+class]] figure{\\n   margin: 0;\\n   position: absolute;\\n}\\n\\n.[[+class]] figcaption{\\n   position: absolute;\\n   bottom: .5em;\\n   color: #fff;\\n   background: rgba(0,0,0, .3);\\n   font-size: .8em;\\n   padding: 8px 12px;\\n   opacity: 0;\\n   transition: opacity .5s;\\n}\\n\\n.[[+class]]:hover figure figcaption{\\n   transition: opacity .5s;\\n   opacity: 1;\\n}\\n\\n.[[+class]] figure{\\n   opacity:1;\\n}\\n[[+cell]]\\n\\n@keyframes xfade {\\n     0% {\\n       opacity:1;\\n     }\\n     [[+kf2]]% {\\n       opacity:1;\\n     }\\n     [[+kf3]]% {\\n       opacity:0;\\n     }\\n     [[+kf4]]% {\\n       opacity:0;\\n     }\\n     100% {\\n       opacity:1;\\n     }\\n}\\n\\n<\\/style>"}',
+        'guid' => '63d4b903193b2c26e9508d2d9c4e66d9',
+        'native_key' => 28,
+        'signature' => '5db306ae299335124200c1635ae55cae',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '8b4d1c981d8e3f045379a8a02322e311' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":12,"source":0,"property_preprocess":0,"name":"cssSlideShow","description":"This Snippet retrieves image files from a directory, processes them through template chunks and returns a pure CSS Slide Show.","editor_type":0,"category":8,"cache_type":0,"snippet":"\\/*\\n * cssSlideShow\\n *\\n * DESCRIPTION\\n *\\n * This Snippet retrieves image files from a directory, processes them through \\n * template chunks and returns a pure CSS Slide Show.\\n *\\n * PARAMETERS:\\n *\\n * folder string - The name of the image folder to search, taken from URL.\\n * &folder string - The name of the image folder to search. Uncomment to use.\\n * &ext string - The extension(s) of the images. optional. Default: jpg .\\n * &cell_tpl string - Chunk to process animation cells optional. Default: cSS_Cell_Tpl\\n * &image_tpl string - Chunk to process image links optional. Default: cSS_Image_Tpl\\n * &style_tpl string - Chunk to process <style> section optional. Default: cSS_Style_Tpl\\n * &page_tpl string - Chunk to process page optional. Default: cSS_Page_Tpl\\n * &cSS_Width integer - A number representing the width images to return. optional. Default: 300\\n * &cSS_Height integer - A number representing the height images to return. optional. Default: 225\\n * &cSS_Id string - An id name to pass. optional. Default: \'\'\\n * &cSS_Class string - A class name to pass. optional. Default: \'\'\\n * &cSS_ImgTime integer - A number representing the time to display each image. optional. Default: 4\\n * &cSS_CfTime integer - A number representing the time for each cross-fade. optional. Default: 2\\n *\\n * version 0.9.0-beta9\\n * author Jerry Mercer (ultravision.net)\\n *\\n * USAGE:\\n *\\n * [[!cssSlideShow? \\n * &folder=`assets\\/photos` \\n * &ext =`cSS_Ext =`jpg,gif,png,JPG,GIF,PNG`\\n * &cell_tpl=`cSS_Cell_Tpl`\\n * &image_tpl=`cSS_Image_Tpl`\\n * &style_tpl=`cSS_Style_Tpl`\\n * &page_tpl=`cSS_Page_Tpl`\\n * &cSS_Width=`300`\\n * &cSS_Height=`225`\\n * &cSS_Id=`imgCells`\\n * &cSS_Class=`slideShow`\\n * &cSS_ImgTime=`4`\\n * &cSS_CfTime=`2`\\n * ]]\\n *\\n *\\/\\n\\n$folder = isset($_GET[\'folder\']) ? $_GET[\'folder\'] : \'\'; \\/\\/ Grab folder from URL\\n\\/\\/ $folder = $modx->getOption(\'cSS_Folder\', $scriptProperties, \'assets\\/photos\'); \\/\\/ What folder do we search uncomment to use\\n$ext = $modx->getOption(\'cSS_Ext\', $scriptProperties, \'jpg\'); \\/\\/ What extension(s) do we use\\n$cell_tpl = $modx->getOption(\'cSS_Cell_Tpl\', $scriptProperties, \'cSS_Cell_Tpl\'); \\/\\/ template for each animation\\n$image_tpl = $modx->getOption(\'cSS_Image_Tpl\', $scriptProperties, \'cSS_Image_Tpl\'); \\/\\/ template for each image\\n$style_tpl = $modx->getOption(\'cSS_Style_Tpl\', $scriptProperties, \'cSS_Style_Tpl\'); \\/\\/ template for <style> code\\n$page_tpl = $modx->getOption(\'cSS_Page_Tpl\', $scriptProperties, \'cSS_Page_Tpl\'); \\/\\/ template for completed page \\n$width = $modx->getOption(\'cSS_Width\', $scriptProperties, 300); \\/\\/ Width to use\\n$height = $modx->getOption(\'cSS_Height\', $scriptProperties, 225);\\/\\/ Height to use\\n$id = $modx->getOption(\'cSS_Id\', $scriptProperties, \'imgCells\'); \\/\\/ id name\\n$class = $modx->getOption(\'cSS_Class\', $scriptProperties, \'slideShow\'); \\/\\/ class name\\n$imgTime = $modx->getOption(\'cSS_ImgTime\', $scriptProperties, 4); \\/\\/ Time to display each image in seconds\\n$cfTime = $modx->getOption(\'cSS_CfTime\', $scriptProperties, 2); \\/\\/ length of cross fade in seconds\\n$aTime = $imgTime+$cfTime; \\/\\/ total length of animation in seconds\\n$fPath = \'\'; \\/\\/ initialize full path to image variable\\n$imgFile = \'\'; \\/\\/ initialize full file name of image variable\\n$imgName = \'\'; \\/\\/ initialize image name variable\\n$path = \'\'; \\/\\/ initialize fPath less file name variable\\n$pPath = \'\'; \\/\\/ initialize path to parent folder variable\\n$parent = \'\'; \\/\\/ initialize parent folder variable\\n$fHTML = \'\'; \\/\\/ initialize formatted HTML from template chunk variable\\n$c = 1; \\/\\/ initialize counter for foreach loop variable\\n\\n$images = glob($folder.\'\\/*.\'.$ext); \\/\\/ get images($images) from image folder($folder)\\narray_multisort(array_map(\'filemtime\', $images), SORT_DESC, $images); \\/\\/ sort $images array by time modified\\n\\n$tot = count($images); \\/\\/ count of images in folder\\n$duration = $tot*$aTime; \\/\\/ total length of all animations in seconds\\n$kf2 = (($imgTime\\/$duration)*100);  \\/\\/ percentage for KeyFrame 2\\n$kf3 = ((1\\/$tot)*100);  \\/\\/ percentage for KeyFrame 3\\n$kf4 = 100-(($cfTime\\/$duration)*100);  \\/\\/ percentage for KeyFrame 4\\n$t2 = $duration-$aTime;\\n\\nforeach ($images as $image) \\/\\/ loop through the images array\\n{\\n\\t$modx->setPlaceholder(\'id\', $id); \\/\\/ set id place-holder for use in template chunk\\n\\t$modx->setPlaceholder(\'count\', $c); \\/\\/ set count place-holder\\n\\t$modx->setPlaceholder(\'delay\', $t2); \\/\\/ set delay place-holder\\n\\t$fHTML = $modx->parseChunk($cell_tpl); \\/\\/call the formatting chunk\\n\\t$cell .= $fHTML; \\/\\/ fill the output with the results\\n\\t$fPath = $image; \\/\\/ set full path to image\\n\\t$imgFile = basename($fPath); \\/\\/ strip to just image file name\\n\\t$imgName = rtrim($imgFile, \\".jpg\\"); \\/\\/ strip extension\\n\\t$path = preg_replace(\'\\/\'. preg_quote($imgFile, \'\\/\') . \'$\\/\', \'\', $fPath); \\/\\/ get path without file name\\t\\n\\t$fold = basename($path); \\/\\/ strip to get image folder\\n\\t$pPath = preg_replace(\'\\/\'. preg_quote($fold, \'\\/\') . \'\\\\\\/$\\/\', \'\', $path); \\/\\/ get path to parent folder \\n\\t$parent = basename($pPath); \\/\\/ strip to get just parent folder\\n\\t$exif_data = exif_read_data ($fPath ,\'IFD0\' ,0 ); \\/\\/ read the exif data from the image\\n\\t$modx->setPlaceholder(\'imgLink\', $fPath); \\/\\/ set imgLink place-holder\\n\\t$modx->setPlaceholder(\'imgName\', $imgName); \\/\\/ set imgName place-holder\\n\\t$modx->setPlaceholder(\'path\', $path); \\/\\/ set path place-holder\\n\\t$modx->setPlaceholder(\'parent\', $parent); \\/\\/ set parent place-holder\\n\\t$modx->setPlaceholder(\'imgFile\', $imgFile); \\/\\/ set imgFile place-holder\\n\\t$modx->setPlaceholder(\'folder\', $fold); \\/\\/ set folder place-holder\\n\\t$modx->setPlaceholder(\'imgCamera\', $exif_data[\'Model\']); \\/\\/ set imgCamera place-holder\\n\\t$modx->setPlaceholder(\'imgDate\', $exif_data[\'DateTime\']); \\/\\/ set imgDate place-holder\\n\\t$fHTML = $modx->parseChunk($image_tpl); \\/\\/call the formatting chunk\\n\\t$photos .= $fHTML; \\/\\/ fill the output with the results\\n\\t$c = $c+1; \\/\\/ increment the counter\\t\\n\\t$t2 = ($t2-$aTime); \\/\\/ decrement the timer\\t\\n}\\n\\n$modx->setPlaceholder(\'width\', $width); \\/\\/ set width place-holder\\n$modx->setPlaceholder(\'height\', $height); \\/\\/ set height place-holder\\n$modx->setPlaceholder(\'duration\', $duration); \\/\\/ set duration place-holder\\n$modx->setPlaceholder(\'class\', $class); \\/\\/ set class place-holder\\n$modx->setPlaceholder(\'cell\', $cell); \\/\\/ set cell place-holder\\n$modx->setPlaceholder(\'kf2\', $kf2); \\/\\/ set key frame 2 place-holder\\n$modx->setPlaceholder(\'kf3\', $kf3); \\/\\/ set key frame 3 place-holder\\n$modx->setPlaceholder(\'kf4\', $kf4); \\/\\/ set key frame 4 place-holder\\n$style = $modx->parseChunk($style_tpl); \\/\\/call the formatting chunk and fill with the results\\n$modx->setPlaceholder(\'style\', $style); \\/\\/ set style place-holder\\n$modx->setPlaceholder(\'total\', $tot); \\/\\/ set total place-holder\\n$modx->setPlaceholder(\'photos\', $photos); \\/\\/ set photos place-holder\\n$page = $modx->parseChunk($page_tpl); \\/\\/call the formatting chunk and fill with the results\\n\\n\\nreturn $page;","locked":0,"properties":null,"moduleguid":"","static":0,"static_file":"","content":"\\/*\\n * cssSlideShow\\n *\\n * DESCRIPTION\\n *\\n * This Snippet retrieves image files from a directory, processes them through \\n * template chunks and returns a pure CSS Slide Show.\\n *\\n * PARAMETERS:\\n *\\n * folder string - The name of the image folder to search, taken from URL.\\n * &folder string - The name of the image folder to search. Uncomment to use.\\n * &ext string - The extension(s) of the images. optional. Default: jpg .\\n * &cell_tpl string - Chunk to process animation cells optional. Default: cSS_Cell_Tpl\\n * &image_tpl string - Chunk to process image links optional. Default: cSS_Image_Tpl\\n * &style_tpl string - Chunk to process <style> section optional. Default: cSS_Style_Tpl\\n * &page_tpl string - Chunk to process page optional. Default: cSS_Page_Tpl\\n * &cSS_Width integer - A number representing the width images to return. optional. Default: 300\\n * &cSS_Height integer - A number representing the height images to return. optional. Default: 225\\n * &cSS_Id string - An id name to pass. optional. Default: \'\'\\n * &cSS_Class string - A class name to pass. optional. Default: \'\'\\n * &cSS_ImgTime integer - A number representing the time to display each image. optional. Default: 4\\n * &cSS_CfTime integer - A number representing the time for each cross-fade. optional. Default: 2\\n *\\n * version 0.9.0-beta9\\n * author Jerry Mercer (ultravision.net)\\n *\\n * USAGE:\\n *\\n * [[!cssSlideShow? \\n * &folder=`assets\\/photos` \\n * &ext =`cSS_Ext =`jpg,gif,png,JPG,GIF,PNG`\\n * &cell_tpl=`cSS_Cell_Tpl`\\n * &image_tpl=`cSS_Image_Tpl`\\n * &style_tpl=`cSS_Style_Tpl`\\n * &page_tpl=`cSS_Page_Tpl`\\n * &cSS_Width=`300`\\n * &cSS_Height=`225`\\n * &cSS_Id=`imgCells`\\n * &cSS_Class=`slideShow`\\n * &cSS_ImgTime=`4`\\n * &cSS_CfTime=`2`\\n * ]]\\n *\\n *\\/\\n\\n$folder = isset($_GET[\'folder\']) ? $_GET[\'folder\'] : \'\'; \\/\\/ Grab folder from URL\\n\\/\\/ $folder = $modx->getOption(\'cSS_Folder\', $scriptProperties, \'assets\\/photos\'); \\/\\/ What folder do we search uncomment to use\\n$ext = $modx->getOption(\'cSS_Ext\', $scriptProperties, \'jpg\'); \\/\\/ What extension(s) do we use\\n$cell_tpl = $modx->getOption(\'cSS_Cell_Tpl\', $scriptProperties, \'cSS_Cell_Tpl\'); \\/\\/ template for each animation\\n$image_tpl = $modx->getOption(\'cSS_Image_Tpl\', $scriptProperties, \'cSS_Image_Tpl\'); \\/\\/ template for each image\\n$style_tpl = $modx->getOption(\'cSS_Style_Tpl\', $scriptProperties, \'cSS_Style_Tpl\'); \\/\\/ template for <style> code\\n$page_tpl = $modx->getOption(\'cSS_Page_Tpl\', $scriptProperties, \'cSS_Page_Tpl\'); \\/\\/ template for completed page \\n$width = $modx->getOption(\'cSS_Width\', $scriptProperties, 300); \\/\\/ Width to use\\n$height = $modx->getOption(\'cSS_Height\', $scriptProperties, 225);\\/\\/ Height to use\\n$id = $modx->getOption(\'cSS_Id\', $scriptProperties, \'imgCells\'); \\/\\/ id name\\n$class = $modx->getOption(\'cSS_Class\', $scriptProperties, \'slideShow\'); \\/\\/ class name\\n$imgTime = $modx->getOption(\'cSS_ImgTime\', $scriptProperties, 4); \\/\\/ Time to display each image in seconds\\n$cfTime = $modx->getOption(\'cSS_CfTime\', $scriptProperties, 2); \\/\\/ length of cross fade in seconds\\n$aTime = $imgTime+$cfTime; \\/\\/ total length of animation in seconds\\n$fPath = \'\'; \\/\\/ initialize full path to image variable\\n$imgFile = \'\'; \\/\\/ initialize full file name of image variable\\n$imgName = \'\'; \\/\\/ initialize image name variable\\n$path = \'\'; \\/\\/ initialize fPath less file name variable\\n$pPath = \'\'; \\/\\/ initialize path to parent folder variable\\n$parent = \'\'; \\/\\/ initialize parent folder variable\\n$fHTML = \'\'; \\/\\/ initialize formatted HTML from template chunk variable\\n$c = 1; \\/\\/ initialize counter for foreach loop variable\\n\\n$images = glob($folder.\'\\/*.\'.$ext); \\/\\/ get images($images) from image folder($folder)\\narray_multisort(array_map(\'filemtime\', $images), SORT_DESC, $images); \\/\\/ sort $images array by time modified\\n\\n$tot = count($images); \\/\\/ count of images in folder\\n$duration = $tot*$aTime; \\/\\/ total length of all animations in seconds\\n$kf2 = (($imgTime\\/$duration)*100);  \\/\\/ percentage for KeyFrame 2\\n$kf3 = ((1\\/$tot)*100);  \\/\\/ percentage for KeyFrame 3\\n$kf4 = 100-(($cfTime\\/$duration)*100);  \\/\\/ percentage for KeyFrame 4\\n$t2 = $duration-$aTime;\\n\\nforeach ($images as $image) \\/\\/ loop through the images array\\n{\\n\\t$modx->setPlaceholder(\'id\', $id); \\/\\/ set id place-holder for use in template chunk\\n\\t$modx->setPlaceholder(\'count\', $c); \\/\\/ set count place-holder\\n\\t$modx->setPlaceholder(\'delay\', $t2); \\/\\/ set delay place-holder\\n\\t$fHTML = $modx->parseChunk($cell_tpl); \\/\\/call the formatting chunk\\n\\t$cell .= $fHTML; \\/\\/ fill the output with the results\\n\\t$fPath = $image; \\/\\/ set full path to image\\n\\t$imgFile = basename($fPath); \\/\\/ strip to just image file name\\n\\t$imgName = rtrim($imgFile, \\".jpg\\"); \\/\\/ strip extension\\n\\t$path = preg_replace(\'\\/\'. preg_quote($imgFile, \'\\/\') . \'$\\/\', \'\', $fPath); \\/\\/ get path without file name\\t\\n\\t$fold = basename($path); \\/\\/ strip to get image folder\\n\\t$pPath = preg_replace(\'\\/\'. preg_quote($fold, \'\\/\') . \'\\\\\\/$\\/\', \'\', $path); \\/\\/ get path to parent folder \\n\\t$parent = basename($pPath); \\/\\/ strip to get just parent folder\\n\\t$exif_data = exif_read_data ($fPath ,\'IFD0\' ,0 ); \\/\\/ read the exif data from the image\\n\\t$modx->setPlaceholder(\'imgLink\', $fPath); \\/\\/ set imgLink place-holder\\n\\t$modx->setPlaceholder(\'imgName\', $imgName); \\/\\/ set imgName place-holder\\n\\t$modx->setPlaceholder(\'path\', $path); \\/\\/ set path place-holder\\n\\t$modx->setPlaceholder(\'parent\', $parent); \\/\\/ set parent place-holder\\n\\t$modx->setPlaceholder(\'imgFile\', $imgFile); \\/\\/ set imgFile place-holder\\n\\t$modx->setPlaceholder(\'folder\', $fold); \\/\\/ set folder place-holder\\n\\t$modx->setPlaceholder(\'imgCamera\', $exif_data[\'Model\']); \\/\\/ set imgCamera place-holder\\n\\t$modx->setPlaceholder(\'imgDate\', $exif_data[\'DateTime\']); \\/\\/ set imgDate place-holder\\n\\t$fHTML = $modx->parseChunk($image_tpl); \\/\\/call the formatting chunk\\n\\t$photos .= $fHTML; \\/\\/ fill the output with the results\\n\\t$c = $c+1; \\/\\/ increment the counter\\t\\n\\t$t2 = ($t2-$aTime); \\/\\/ decrement the timer\\t\\n}\\n\\n$modx->setPlaceholder(\'width\', $width); \\/\\/ set width place-holder\\n$modx->setPlaceholder(\'height\', $height); \\/\\/ set height place-holder\\n$modx->setPlaceholder(\'duration\', $duration); \\/\\/ set duration place-holder\\n$modx->setPlaceholder(\'class\', $class); \\/\\/ set class place-holder\\n$modx->setPlaceholder(\'cell\', $cell); \\/\\/ set cell place-holder\\n$modx->setPlaceholder(\'kf2\', $kf2); \\/\\/ set key frame 2 place-holder\\n$modx->setPlaceholder(\'kf3\', $kf3); \\/\\/ set key frame 3 place-holder\\n$modx->setPlaceholder(\'kf4\', $kf4); \\/\\/ set key frame 4 place-holder\\n$style = $modx->parseChunk($style_tpl); \\/\\/call the formatting chunk and fill with the results\\n$modx->setPlaceholder(\'style\', $style); \\/\\/ set style place-holder\\n$modx->setPlaceholder(\'total\', $tot); \\/\\/ set total place-holder\\n$modx->setPlaceholder(\'photos\', $photos); \\/\\/ set photos place-holder\\n$page = $modx->parseChunk($page_tpl); \\/\\/call the formatting chunk and fill with the results\\n\\n\\nreturn $page;"}',
+        'guid' => '4efc54e10a93d54a7a852308c80616b2',
+        'native_key' => 12,
+        'signature' => '408e2e6f3c7a1355d0e860cb70cc3a44',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'cssslideshow',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"cssslideshow-1.0.2-pl\\/modCategory\\/547288e45bf9eaab6a59df7f72aa0a8e\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"cssslideshow"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '79b010c50de1f04d5a70fb4904839108',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '547288e45bf9eaab6a59df7f72aa0a8e',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"cssSlideShow","rank":0}',
+);

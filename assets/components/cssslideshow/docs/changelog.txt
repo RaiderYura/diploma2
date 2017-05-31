@@ -1,0 +1,21 @@
+Changelog for cssSlideShow (for Revolution).
+cssSlideShow 1.0.2
+====================================
+- Added an examplechunk to show usage with pThumb.
+- Updated Readme
+
+cssSlideShow 1.0.1
+====================================
+- Just a tweak to make it behave in 2.3.1
+- Changed all installed chunks to have example_ prefix so as not to overwrite with updates.
+
+cssSlideShow 1.0.0
+====================================
+- Complete re-write to make it simpler
+- Changed to cross fade animation from mask and slide
+- Changed the example chunks to match the new version
+
+cssSlideShow 0.5.0
+====================================
+- Packaged for upload
+- Added changelog.

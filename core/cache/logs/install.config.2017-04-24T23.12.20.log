@@ -1,0 +1,2 @@
+[2017-04-24 23:12:20] (ERROR in xPDOConnection::connect @ W:\domains\modx.local\core\xpdo\xpdo.class.php : 3116) SQLSTATE[28000] [1045] Access denied for user ''@'localhost' (using password: NO)
+[2017-04-24 23:12:21] (ERROR @ W:\domains\modx.local\setup\includes\tables_create.php : 94) Could not connect to database server: SQLSTATE[28000] [1045] Access denied for user ''@'localhost' (using password: NO)
